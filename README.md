@@ -10,15 +10,13 @@ You are not allowed to collaborate during the Sprint Project. However, you are e
 
 > You have **four hours** to complete this challenge. Plan your time accordingly.
 
-
 ## Introduction
 
 In this project, you build a missing header (navigation and image) on the home page, update some CSS styling on the index.css, and make your page responsive for mobile. You will be working with a pre-existing web page, allowing you to get a taste of what it is like to inherit code from someone else, as will regularly happen on the job.
 
-In meeting the minimum viable product (MVP) specifications listed below, your web page should look like the solution screen shots of the home page and mobile version. 
+In meeting the minimum viable product (MVP) specifications listed below, your web page should look like the solution screen shots of the home page and mobile version.
 
- [Click here for home page example](design_files/home-desktop.jpg)
-
+[Click here for home page example](design_files/home-desktop.jpg)
 
 [Click here for mobile example](design_files/home-mobile.jpg)
 
@@ -34,15 +32,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+\*\*\*\* Semantic HTML, also known as semantic markup, refers to the use of HTML tags \*\*\*\* that convey the meaning—or semantics—of the content contained within them.
+
 2. What are the 4 areas of the box model?
+
+\*\*\*\* It consists of: margins, borders, padding, and the actual content.
 
 3. What command do you use in git to copy files from Github?
 
-4. Explain why git is valuable to a team of developers.
+\*\*\*\* git clone
+
+4. Explain why git is valuable to a team of developers?.
+
+\*\*\*\* Git is a very powerful tool for collaboration and provides a lot of features to \*\*\*\* make development faster and smoother.
 
 5. What is the difference between Git and Github?.
 
-You are expected to be able to answer all these questions. Your responses contribute to your Sprint Project grade. Skipping this section *will* prevent you from passing this challenge.
+\*\*\*\* While Git is a tool that's used to manage multiple versions of source code edits \*\*\*\* that are then transferred to files in a Git repository, GitHub serves as a \*\*\*\* location for uploading copies of a Git repository.
+
+You are expected to be able to answer all these questions. Your responses contribute to your Sprint Project grade. Skipping this section _will_ prevent you from passing this challenge.
 
 ## Instructions
 
@@ -55,7 +63,7 @@ You are expected to be able to answer all these questions. Your responses contri
 - [ ] Implement the project on your newly created `<YourfirstName-YourlastName>` branch, committing changes regularly
 - [ ] Push commits: git push origin `<YourfirstName-YourlastName>`
 
-### Task 2:  Minimum Viable Product
+### Task 2: Minimum Viable Product
 
 Your finished project must include all of the following requirements:
 
@@ -63,11 +71,10 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design files](/design_files). Notice the navigation and hero images are missing in the starter code.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header
-* [ ] Read the instructions in [The Javascript file](/js/index.js)
-* [ ] Make your design responsive such that it is accessible on mobile(500px)and matches the [mobile](design_files/home-mobile.jpg) wireframe.
-* [ ] Add responsive breakpoints to your code by using media queries
-
+- [ ] Build the HTML and CSS to create the missing navigation and header
+- [ ] Read the instructions in [The Javascript file](/js/index.js)
+- [ ] Make your design responsive such that it is accessible on mobile(500px)and matches the [mobile](design_files/home-mobile.jpg) wireframe.
+- [ ] Add responsive breakpoints to your code by using media queries
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
@@ -75,10 +82,10 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Make your design responsive such that it is accessible on tablet(800 px) and matches the [tablet](design/Tablet.png) wireframe.
-* [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
-* [ ] Introduce CSS animations to your site.
-* [ ] Build a contact page and create a form with several inputs of your choosing
+- [ ] Make your design responsive such that it is accessible on tablet(800 px) and matches the [tablet](design/Tablet.png) wireframe.
+- [ ] Build a page of your choosing from the navigation items. Come up with content and images that fit the theme.
+- [ ] Introduce CSS animations to your site.
+- [ ] Build a contact page and create a form with several inputs of your choosing
 
 ## Resources
 
@@ -92,6 +99,6 @@ After finishing your required elements, you can push your work further. These go
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master

@@ -1,72 +1,96 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trip To Safari</title>
+    <link href="css/index.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/index.js"></script>
+  </head>
 
-  <title>Trip To Safari</title>
-
-  <link href="css/index.css" rel="stylesheet">
-  <script type="text/javascript" src="js/index.js"></script>
-
-</head>
-
-<body>
-
- <!-- navigation Goes Here -->
-
-  <div class="container home">
-
+  <body>
+    <!-- navigation Goes Here -->
     <header class="intro">
-       <!-- Hero Images Goes Here -->
-      
+      <nav>
+        <div class="logo">
+          <img src="img/logo.png" alt="logo" />
+        </div>
+        <div class="navigation">
+          <ul class="menu-list">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Plan A Trip</a></li>
+            <li><a href="#">Attractions</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Hero Images Goes Here -->
+      <div class="frame">
+        <img src="img/hero.jpg" alt="" />
+      </div>
     </header>
-    
+
     <section class="attractions">
-        <div class="images-title">
-            <h2>Best Attractions</h2>
+      <div class="images-title">
+        <h2>Best Attractions</h2>
+      </div>
+      <div class="attraction-images">
+        <div class="images">
+          <img
+            src="img/mount_kilimanjaro.jpg"
+            class="mount"
+            alt="Mount Killimanjaro"
+          />
+          <h3>Mount Killimanjaro</h3>
         </div>
-        <div class="attraction-images">
-            <div class="images">
-                <img src="img/mount_kilimanjaro.jpg" class="mount" alt="Mount Killimanjaro">
-                <h3>Mount Killimanjaro</h3>
-            </div>
-            <div class="images">
-                <img src="img/kruger_national_park.jpg" class="kruger" alt="Kruger National Park">
-                <h3>Kruger National Park</h3>
-            </div>
-            <div class="images">
-                <img src="img/the_great_pyramid_of_giza.jpg" class="pyramid" alt="The Great Pyramid Of Giza">
-                <h3>The Great Pyramid Of Giza</h3>
+        <div class="images">
+          <img
+            src="img/kruger_national_park.jpg"
+            class="kruger"
+            alt="Kruger National Park"
+          />
+          <h3>Kruger National Park</h3>
         </div>
-    </div>
+        <div class="images">
+          <img
+            src="img/the_great_pyramid_of_giza.jpg"
+            class="pyramid"
+            alt="The Great Pyramid Of Giza"
+          />
+          <h3>The Great Pyramid Of Giza</h3>
+        </div>
+      </div>
     </section>
-    
     <section class="visit-africa">
       <div class="visit-text">
         <h3>Let's Go For A Walk</h3>
 
-        <p>Africa has the richest culture and best natural resources in the world. You will witness something you have never seen before. Your trip will be memorable because of the amazing attractions. Our team will take to places like Mount Killimanjaro, Kruger National Park, and more.</p>
-      
-        <div class="btn">
-          Plan Your Trip
-        </div>
-      </div>
-      
-      <div class="visit-form">
-          <form>
-              <input type="text" placeholder="Full Name">
-              <input type="text" placeholder="Email">
-              <input type="submit" value="Sign Up">
-          </form>
+        <p>
+          Africa has the richest culture and best natural resources in the
+          world. You will witness something you have never seen before. Your
+          trip will be memorable because of the amazing attractions. Our team
+          will take to places like Mount Killimanjaro, Kruger National Park, and
+          more.
+        </p>
+
+        <div class="btn">Plan Your Trip</div>
       </div>
 
+      <div class="visit-form">
+        <h3>Sign Up to get more travel news</h3>
+        <form action="#">
+          <input type="text" placeholder="Full Name" />
+          <input type="text" placeholder="Email" />
+          <input type="submit" value="Sign Up" class="btn" />
+        </form>
+      </div>
     </section>
 
     <footer>
-      <p>Copyright Trip To Safari 2021</p>
+      <p>&#169;Copyright Trip To Safari 2021</p>
     </footer>
-
-  </div>
-</body>
+    <script src="js/index.js"></script>
+  </body>
 </html>

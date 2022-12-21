@@ -1,138 +1,264 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-
-/* Reset CSS */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-
-/* Default CSS */
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,300;1,500;1,700&display=swap");
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
-html {
-  font-size: 62.5%;
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
-html, body {
-  font-family: sans-serif;
-  color: black;
-}
-
-h1, h2, h3, h4, h5 {
-  font-family: sans-serif;
-  color: black;
-}
-
-h2 {
-  font-size: 3.2rem;
-}
-
-h3 {
-  font-size: 2.8rem;
-}
-
-p {
-  font-size: 1.6rem;
-  line-height: 1.4;
-}
-
-.container {
-  max-width: 100%;
+.intro {
   width: 100%;
-  margin: 0 auto;  
+  display: block;
+  position: relative;
+  padding-top: 10px;
+}
+
+nav {
+  margin-top: 10px;
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 100px;
+  flex: 1fr;
+  position: relative;
+}
+.logo img {
+  width: 100%;
+  height: 50%;
+  object-fit: fill;
+}
+
+.menu-list {
+  margin-right: 100px;
+  flex: 1fr;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-list li {
+  padding: 10px;
+}
+.menu-list li a {
+  cursor: pointer;
+  font-size: 1rem;
+  color: rgb(12, 12, 12);
+  font-weight: lighter;
+}
+
+.menu-list .active a {
+  color: #000;
+  font-weight: bold;
+}
+.frame {
+  border-top: 4px solid #000;
+  width: 100vw;
+  height: 600px;
+}
+.frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
 
 .attraction-images {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    background-color: #fdeaea;
-    justify-content: center;
-    padding: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #fdeaea;
+  justify-content: center;
+  padding: 72px;
+}
+.images-title {
+  padding: 40px;
+  text-align: center;
 }
 
-.attraction-images .images{
-    width: 25%;
-    margin: 20px 2.5%;
-    height: 100%;
+.attraction-images .images {
+  width: 25%;
+  margin: 20px 2.5%;
+  height: 100%;
 }
 
 .attraction-images h3 {
-    color: black;
-    text-align: center;
+  color: black;
+  text-align: center;
 }
 
 .attraction-images .images img {
-      width: 100%;
-      margin: 20px 2.5%;
-      border-radius: 20px;
-      height: 100%;
+  width: 100%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+  height: 100%;
 }
-
-
 .visit-africa {
-    margin-top: 60px;
-    padding: 50px 60px;
-    display: flex;
-    justify-content: center;
+  margin-top: 60px;
+  padding: 50px 60px;
+  display: flex;
+  justify-content: center;
 }
 
-.visit-africa .visit-text {
-    width: 50%;
+.visit-africa .visit-text,
+.visit-form {
+  width: 50%;
+  text-align: center;
 }
 
 .visit-africa .visit-text h3 {
-    margin-bottom: 10px;
-  }
+  margin-bottom: 10px;
+}
+.visit-africa p {
+  font-size: 1rem;
+}
 
 .visit-africa .visit-form {
-    width: 46%;
-      margin-left: 4%;
+  width: 46%;
+  margin-left: 4%;
+}
+.visit-form form {
+  display: flex;
+  flex-direction: column;
+}
+.visit-form form input {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  width: 80%;
+  padding: 10px;
+}
+.visit-form form .btn {
+  width: 30%;
+  padding: 10px;
+  margin: 20 auto 0 auto;
+  background-color: rgb(250, 87, 28);
+  border: none;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.btn {
+  width: 30%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(250, 87, 28);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+footer {
+  min-width: 100%;
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: rgb(153, 40, 40);
+}
+
+/*     */
+@media only screen and (max-width: 767px) {
+  html {
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+  }
+
+  nav {
+    height: 200px;
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .logo {
+    margin: 0;
+    width: 50%;
+    height: 100px;
+    position: relative;
+  }
+  .navigation {
+    width: 80%;
+    position: relative;
+  }
+  .menu-list {
+    margin: 0;
+  }
+
+  .menu-list li {
+    padding: 0;
+  }
+  .menu-list li a {
+    font-size: 0.6rem;
+  }
+  .frame {
+    width: 100%;
+  }
+  .attraction-images {
+    flex-direction: column;
+  }
+  .attraction-images .images {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .visit-africa {
+    flex-direction: column;
+  }
+  .visit-africa .visit-text h3 {
+    font-size: 1.25rem;
+  }
+  .visit-africa .visit-text,
+  .visit-form {
+    width: 100%;
+  }
+  .visit-africa .visit-text,
+  .visit-form {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .visit-africa .visit-form {
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .visit-form form .btn {
+    width: 50%;
+  }
+  .btn {
+    width: 50%;
+  }
+}
+
+/* */
+@media only screen and (max-width: 500px) {
+  html {
+    overflow-x: hidden;
+  }
+  body {
+    min-height: 100vh;
+    width: 100vw;
+  }
+  .btn {
+    font-size: 0.75rem;
+  }
 }
