@@ -11,3 +11,32 @@
 5. Console.log the result.
 
 */
+
+//simple promt calculation
+let num1, num2, result1;
+let sysmbol;
+
+num1 = parseInt(prompt("Enter the first number"));
+num2 = parseInt(prompt("Enter the second number"));
+sysmbol = prompt("Enter the sysmbol");
+if (sysmbol == "+") {
+  result1 = num1 + num2;
+  alert("the addtion of " + num1 + "+" + num2 + "=" + " " + result1);
+} else if (sysmbol == "-") {
+  result1 = num1 - num2;
+  alert("the subtraction of " + num1 + "-" + num2 + "=" + " " + result1);
+} else if (sysmbol == "*") {
+  result1 = num1 * num2;
+  alert("the multiplication of " + num1 + "*" + num2 + "=" + " " + result1);
+} else if (sysmbol == "/") {
+  result1 = num1 / num2;
+  alert("the Division of " + num1 + "/" + num2 + "=" + " " + result1);
+} else if (sysmbol == "%") {
+  result1 = num1 % num2;
+  alert("the reminder of " + num1 + "%" + num2 + "=" + " " + result1);
+} else if (sysmbol == "**") {
+  result1 = num1 ** num2;
+  alert("the power of " + num1 + "**" + num2 + "=" + " " + result1);
+} else {
+  alert("the operation are in correct");
+}
